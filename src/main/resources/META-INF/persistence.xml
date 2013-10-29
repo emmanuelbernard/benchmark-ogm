@@ -16,6 +16,7 @@
             <!-- defines which JTA Transaction we plan to use -->
             <property name="hibernate.transaction.jta.platform"
                       value="org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform"/>
+            <property name="hibernate.search.default.indexmanager" value="near-real-time"/>
         </properties>
     </persistence-unit>
 </persistence>
